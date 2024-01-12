@@ -6,8 +6,12 @@ export default function CheckoutLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
-      {children}
-    </div>
+    <html>
+      <body>
+        <div>
+          {children}
+        </div>
+      </body>
+    </html>
   )
 }
