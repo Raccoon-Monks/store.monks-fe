@@ -2,4 +2,6 @@
     background-color: antiquewhite;
     color:black;
     padding:1rem;
+    border: solid;
+    border-color: #000;
 }
