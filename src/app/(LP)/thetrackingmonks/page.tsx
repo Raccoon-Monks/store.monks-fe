@@ -1,4 +1,4 @@
-import LeadForm from '@/Components/Structural_Components/LeadForm'
+import LeadForm from '@/app/(LP)/thetrackingmonks/components/LeadFrom/LeadForm'
 import styles from './page.module.css'
 
 export default function Home() {

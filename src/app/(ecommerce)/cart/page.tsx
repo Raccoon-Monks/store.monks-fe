@@ -1,42 +1,17 @@
-'use client'
-
+import PageContainer from '@/app/(ecommerce)/components/Page/PageContainer';
 import styles from './page.module.css'
-import CartProductList from '@/Components/Structural_Components/CartProductList'
-import CartSummary from '@/Components/Structural_Components/CartSumary'
-import { useEffect, useState } from 'react';
+import CartProductList from '@/app/(ecommerce)/components/CartProductList/CartProductList'
+import CartSummary from '@/app/(ecommerce)/components/CartSummary/CartSumary'
 
-export default function Home() {
-  let cartData;
-  if (typeof window !== 'undefined') {
-    cartData = JSON.parse(localStorage.getItem('cart')!) || [];
-  }
-  const [cart, setCart] = useState(cartData);
-  
-  useEffect(() => {
-    window.dataLayer = window.dataLayer || []
-    window.dataLayer.push({
-      event: 'view_cart',
-      currency: 'BRL',
-      value:  10,
-      items: cart,
-    })
-  }, [])
 
-  useEffect(() => {
-    localStorage.setItem('cart', JSON.stringify(cart))
-  }, [cart]);
-  
-  const deleteItem = (id: number) => {
-    const cartItemRemoved = cart.filter((item: any) => item.item_id !== id)
-    setCart(cartItemRemoved)
-  };
+export default async function CartPage({params}: {params: {slug:string}}) {
 
   return (
-    <main className={styles.main}>
+    <PageContainer id={'cart-page'} style={'cart-page-globals'}>
       <div className={styles.container}>
-        <CartProductList cart={cart} deleteItem={deleteItem} />
-        <CartSummary cart={cart} />
+        <CartProductList/>
+        <CartSummary/>
       </div>
-    </main>
+    </PageContainer>
   )
 }

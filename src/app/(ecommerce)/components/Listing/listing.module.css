@@ -1,0 +1,17 @@
+.inside-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    border:solid;
+    border-color: black;
+    height:auto;
+    padding:2rem;
+}
+
+.span {
+    padding: 1rem;
+    font-weight: bold;
+}

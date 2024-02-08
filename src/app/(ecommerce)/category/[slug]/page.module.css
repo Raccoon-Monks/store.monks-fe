@@ -1,19 +1,10 @@
-.main {
-  display: flex;
-  justify-content: space-between;
-  min-height: 100vh;
-  min-width: 100vw;
-  height: fit-content;
-}
-
 .main span 
 {
   padding: 0;
   margin-left: 5px;
 }
 
-.container 
-{
+.container {
     display: flex;
     border:solid;
     border-color:black;

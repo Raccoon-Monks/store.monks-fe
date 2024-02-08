@@ -1,0 +1,34 @@
+
+.globals{
+    border:solid;
+    border-color: black;
+    background-color: antiquewhite;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.begin-checkout-cta {
+        background: none;
+        cursor: pointer;
+}
+
+.newsletter-cta {
+    background: none;
+    cursor: pointer;
+}
+
+.home-hero-cta {
+    background: none;
+    cursor: pointer; 
+}
+
+.pdp-addtocart-cta {
+    background: none;
+    cursor: pointer; 
+}

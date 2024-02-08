@@ -1,0 +1,214 @@
+.main-listing-globals{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    width:100vw;
+    justify-content: space-around;
+}
+
+.breadcrumbs-globals {
+    border: solid;
+    border-color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:95vw;
+    height: 1rem;
+    padding: 0.3rem;
+    margin:0.6rem;
+    font-weight: bold;
+}
+
+.header-globals {
+    display: flex;
+    background-color: antiquewhite;
+    border: solid;
+    border-color: black;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding:1rem;
+    font-weight:bold;
+}
+
+.home-hero-slider-globals{
+    display:flex;
+    background-color: antiquewhite;
+    border:solid;
+    border-color: black;
+    color:black;
+    height:60vh;
+    width:100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.carousel-shelf-globals {
+    border:none;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 35vh;
+    padding:1rem;
+}
+.shelf-card-globals {
+    border:solid;
+    border-color: black;
+    background-color: antiquewhite;
+    height: 70%;
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.newsletter-globals {
+    border:solid;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    height: auto;
+}
+
+.product-details-globals {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    border-color: black;
+    width:70%;
+    height: 100%;
+}
+
+.shipping-calculation-globals {
+    display: flex;
+    border: solid;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    color:black;
+    width:90vw;
+    height: 6rem;
+    font-weight: bold;
+}
+
+.related-products-globals {
+    border:solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: antiquewhite;
+    width: 90vw;
+    height:15rem;
+    padding: 2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
+}
+
+.category-filter-globals {
+    border: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:auto;
+    width:10vw;
+
+}
+
+.listing-globals {
+    display: flex;
+    border-color: black;
+    border:solid;
+    flex-direction: column;
+    height: auto;
+    width:80vw;
+    padding: 1rem;
+    align-items: center;
+}
+
+.shelf-card-globals {
+    height:25%;
+    height:20vh;
+    margin:1rem;
+}
+
+.login-form-globals, .signup-form-globals {
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    flex-wrap: wrap;
+    border:solid;
+    border-color:black;
+    background-color: antiquewhite;
+    color: black;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-globals {
+        border:solid;
+        background-color: antiquewhite;
+        color:black;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        font-weight:bold;
+        margin-top: auto;
+}
+
+.cart-product-list-globals {
+    border: solid;
+    display: flex;
+    flex: 100%;
+    min-width:100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cart-summary-globals {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+    border: solid;
+    margin-top: 0;
+    min-height: 500px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-cart-globals {
+    display: flex;
+    /* flex: 100%; */
+    flex-grow: 1;
+    width: 100vw;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+    /* border: solid; */
+    align-items: center;
+    padding: 0;
+    align-items: center;
+}
