@@ -1,14 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Header from '../../Components/Structural_Components/Header'
-import Footer from '../../Components/Structural_Components/Footer'
-import Container from '@/Components/Structural_Components/Container'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import CartProvider from './services/CartManagement/CartContextManager'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TS_ECOM',
+  title: 'Store.Monks',
   description: 'A mock ecommerce SPA for educational purpose',
 }
 
@@ -20,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Container>
-        <Header/>
-          {children}
-        <Footer/>
-      </Container>
+        <CartProvider>
+          <Header/>
+          <main>
+            {children}
+          </main>
+        </CartProvider>
+          <Footer/>
       </body>  
     </html>
   )

@@ -1,0 +1,16 @@
+.header nav {
+    border:solid;
+    margin:1rem;
+}
+
+.header ul {
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.header li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+

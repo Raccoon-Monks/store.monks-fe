@@ -1,0 +1,12 @@
+.carousel-shelf{
+    border:none;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 35vh;
+    padding:1rem;
+}
